@@ -1,17 +1,30 @@
 {
-  "name": "job_bank_api-nodejs_v1",
+  "name": "job_portal_nazmussakibparves",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Nazmus Sakib Parves",
   "license": "ISC",
   "keywords": [],
-  "description": "",
+  "description": "Simple User Login and Registration REST API using Node.js, Express framework and MySql",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "morgan": "^1.9.1",
     "mysql": "^2.16.0"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazmusSakibParves/User-Authentication-REST-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NazmusSakibParves/User-Authentication-REST-API/issues"
+  },
+  "homepage": "https://github.com/NazmusSakibParves/User-Authentication-REST-API#readme"
 }
