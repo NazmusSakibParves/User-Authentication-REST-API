@@ -35,7 +35,7 @@ module.exports.jobSeeker_authenticate = function(req,res){
                     status:200,
                     error: error,
                     message:'Successfully Authenticated...',
-                    data: results
+                    response: results
                 })
                 res.status(200);
                 
@@ -47,7 +47,7 @@ module.exports.jobSeeker_authenticate = function(req,res){
                   status:500,
                   error: error,
                   message:"Invalid Authentication !",   
-                  data: null
+                  response: null
                  });
                  res.status(500);
             }
@@ -59,7 +59,7 @@ module.exports.jobSeeker_authenticate = function(req,res){
               status:404,    
             //message:"Email does not exits",
             message:"Email or Password is incorrect",
-            data: results
+            response: results
           });
           res.status(404)
         }

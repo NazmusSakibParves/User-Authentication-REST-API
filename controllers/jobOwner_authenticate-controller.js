@@ -52,7 +52,7 @@ module.exports.jobowner_authenticate=function(req,res){
           res.json({
               status:false,    
             message:"Email does not exits",
-            data: results
+            response: results
           });
           res.status(404)
         }
